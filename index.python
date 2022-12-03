@@ -1,0 +1,10 @@
+import pandas as pd
+print(pd.__version__)
+
+pd.read_csv?
+
+df = pd.read_csv("characters.grivg.csv")
+df.head(10)
+
+df = pd.read_csv("games.grivg.csv")
+df.head(10)
